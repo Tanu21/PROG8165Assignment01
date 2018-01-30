@@ -1,0 +1,15 @@
+Python 2.7.8 (default, Jun 30 2014, 16:08:48) [MSC v.1500 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> s=8093
+>>> d=7798
+>>> SHEX=hex(s)
+>>> SHEX
+'0x1f9d'
+>>> DHEX=hex(d)
+>>> DHEX
+'0x1e76'
+>>> SHEX+DHEX
+'0x1f9d0x1e76'
+>>> SHEX+DHEX+'00000000 00000000'+'50020010'
+'0x1f9d0x1e7600000000 0000000050020010'
+>>> 
